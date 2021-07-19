@@ -16,7 +16,7 @@
 			<h:outputLabel value="Contraseña: *" styleClass="colorText"></h:outputLabel>
 			<h:inputSecret id="text_pass" value="#{loginController.password}" required="true" requiredMessage="La contraseña es requerida"></h:inputSecret>
 			
-			<h:commandButton value="Entrar" action="#{loginController.ingresar()}"></h:commandButton>
+			<h:commandButton value="Entrar" action="#{loginController.ingresar}"></h:commandButton>
 		</h:panelGrid>
 	</h:form>
 </h:body>

@@ -1,3 +1,23 @@
 .colorText{
 	color: green;
 }
+
+.headerTable{
+	text-align: center;
+	background: none repeat scroll 0 0 #80ff80;
+	border-bottom: 1px solid #BBB;
+	padding: 10px 30px;
+}
+
+
+.rowTable{
+	text-align: center;
+	background: none repeat scroll 0 0 #EEE;
+	border-top: 2px solid #BBB;
+}
+
+.rowTableLine{
+	text-align: center;
+	background: none repeat scroll 0 0 #F9F9F9;
+	border-top: 2px solid #BBB;	
+}
